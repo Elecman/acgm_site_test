@@ -7,10 +7,11 @@ body{
 .video-button {
     position: absolute;
     z-index: 5;
-    top: 29%;
-    left: 39%;
-	padding: 89px;
-    background: url("../img/video-button.png") no-repeat;
+    top: 31%;
+    left: 41%;
+}
+.video-button img{
+	width: 50px;
 }
 /* NEWS */
 .left-side__menu{
@@ -219,6 +220,15 @@ body{
     text-align: center;
 }
 @media (min-width: 767px) and (max-width: 1139px){
+	.video-button {
+		position: absolute;
+		z-index: 5;
+		top: 33%;
+		left: 43%;
+	}
+	.video-button img{
+		width: 80px;
+	}
 	.carousel{
 		margin-left: 0;
 		margin-right: 0;
@@ -419,6 +429,15 @@ body{
     }
 }
 @media (min-width: 1140px) and (max-width: 2560px) {
+	.video-button {
+		position: absolute;
+		z-index: 5;
+		top: 33%;
+		left: 43%;
+	}
+	.video-button img{
+		width: 89px;
+	}
 	.carousel{
 		margin-left: 0;
 		margin-right: 0;
