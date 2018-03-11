@@ -147,7 +147,7 @@ body{
     margin-top: 30px;
 }
 .footer-menu span{
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Avenir Next Cyr Medium";
     color: rgb(255, 255, 255);
     line-height: 2;
@@ -390,11 +390,14 @@ body{
     .footer-menu{
         display: none;
     }
+	.footer-main {
+		padding: 30px 50px 30px 50px;
+	}
 	.footer-logo__menu{
 		display: inline-block;
 	}
 	.footer-social{
-		padding-right: 100px;
+		padding-right: 25px;
 	}
     .footer-logo{
         vertical-align: top;
@@ -405,7 +408,7 @@ body{
         color: rgb(255, 255, 255);
         line-height: 2;
         text-align: left;
-        padding-left: 40px;
+        padding-left: 25px;
     }
     .footer-logo i {
         padding-left: 15px;
